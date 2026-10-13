@@ -32,7 +32,7 @@ git log --oneline #핵심만 출력
 
 ```
 ## remote add
-- 원격 저장소 주소를 별명(orgin) 으로 추가
+- 원격 저장소 주소를 별명(origin) 으로 추가
 ```
 git remote add origin https://github.com/Rocky1kr/TIL.git
 ```
@@ -42,6 +42,7 @@ git remote add origin https://github.com/Rocky1kr/TIL.git
 ```
 git push origin main
 ```
+
 
 
 
