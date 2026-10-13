@@ -22,6 +22,7 @@ git add <filename>
 - `.git` repository에 저장 (사진찍기)
 ```
 git commit -m "message"
+git commit --amend -m "fix message" # 마지막 커밋 메시지 수정
 ```
 
 ## log
@@ -48,6 +49,14 @@ git push origin main
 git add .
 git commit -m "update"
 git push origin main
+```
+
+## restore
+- 원복하기
+```
+git restore <filename>
+git restore .
+git restore --staged <filename> # 무대위에서 내린다
 ```
 
 
