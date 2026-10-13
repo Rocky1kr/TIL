@@ -44,6 +44,12 @@ git push origin main
 ```
 
 ## add, commit, push (한 사이클)
+```
+git add .
+git commit -m "update"
+git push origin main
+```
+
 
 
 
