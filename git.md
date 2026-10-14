@@ -59,6 +59,23 @@ git restore .
 git restore --staged <filename> # 무대위에서 내린다
 ```
 
+## git rm
+- 추적중인 파일 추적에서 제거하기
+```
+git rm --cached <filename>
+```
+
+## git reset
+- 브랜치를 앞 커밋으로 되돌려 커밋을 취소합니다.
+
+```
+git reset --soft head~1
+git reset --mixed
+git reset --hard
+
+```
+
+
 
 
 
