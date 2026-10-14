@@ -74,6 +74,16 @@ git reset --mixed
 git reset --hard
 
 ```
+## git stash
+- 작업중에 갑작스럽게 다른 장업을 진행해야 할 때, 작업중인 사항을 잠시 치워두는 방법.
+stash를 사용해서 잠시 코드를 다른곳에 보관한 후에, 내가 원하는 branch에 적용할 수 있다.
+
+```
+git stash	
+git stash apply	
+git stash drop	
+git stash pop
+```
 
 
 
