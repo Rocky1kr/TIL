@@ -13,10 +13,18 @@
   - `reset`, `stash`: 커밋 취소, 작업 잠시 치워두기
 
 ### Linux
-- [linux](Linux/linux.md)
+- [linux](Linux/linux.md): 터미널 기본 사용법 정리
+  - 명령어 구조(`명령어 옵션 대상`)와 경로(`~`, `.`, `..`, 절대/상대 경로)
+  - `pwd`, `ls`, `cd`: 위치 확인하고 이동하기
+  - `mkdir`, `touch`, `cp`, `mv`, `rm`: 폴더·파일 만들기, 복사, 이동, 삭제
+  - `echo`, `>`, `>>`, `cat`, `head`, `tail`, `less`: 파일에 쓰고 내용 보기
+  - `grep`, `|`, `which`, `--help`: 검색하고 도움말 보기
 
 ### Markdown
-- [markdown](Markdown/markdown.md)
+- [markdown](Markdown/markdown.md): 마크다운 문법 정리
+  - 제목, 리스트(순서 있음/없음), 강조(굵게·기울임·취소선)
+  - 코드(`` ` ``, 코드 블록), 링크, 이미지
+  - 표, 인용문
 
 ## 기록 방법
 
