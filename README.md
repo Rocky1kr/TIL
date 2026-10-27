@@ -10,6 +10,7 @@
   - `add`, `commit`, `log`: 변경 내용 저장하고 기록 보기
   - `remote add`, `push`: GitHub 같은 원격 저장소에 올리기
   - `restore`, `rm --cached`: 변경 되돌리기, 추적 해제
+  - `mv`: 파일 옮기기·이름 바꾸기, LF/CRLF 경고 설명
   - `reset`, `stash`: 커밋 취소, 작업 잠시 치워두기
 
 ### Linux

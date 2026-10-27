@@ -65,6 +65,18 @@ git restore --staged <filename> # 무대위에서 내린다
 git rm --cached <filename>
 ```
 
+## git mv
+- 파일을 옮기거나 이름을 바꾸면서 git에도 알려주기
+- 내용이 그대로면 git이 "삭제 + 새로 만듦"이 아니라 "이름만 바뀜(rename)"으로 기록한다
+```
+git mv git.md Git/git.md # 파일을 Git 폴더로 이동
+git mv old.md new.md # 이름 바꾸기
+```
+
+## LF, CRLF 경고
+- `warning: LF will be replaced by CRLF` : 줄바꿈 방식이 운영체제마다 달라서 나오는 안내 (Windows는 CRLF, Mac/Linux는 LF)
+- 오류가 아니라서 무시해도 된다
+
 ## git reset
 - 브랜치를 앞 커밋으로 되돌려 커밋을 취소합니다.
 
